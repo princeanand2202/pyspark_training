@@ -1,0 +1,23 @@
+Install the spark
+
+Download & Install the Java(https://download.oracle.com/java/17/archive/jdk-17.0.11_windows-x64_bin.exe)
+Download the Spark(https://archive.apache.org/dist/spark/spark-3.5.3/spark-3.5.3-bin-hadoop3.tgz)
+Download & Install the mini conda(https://repo.anaconda.com/miniconda/Miniconda3-py310_24.7.1-0-Windows-x86_64.exe)
+
+anaconda/miniconda - both has a command called conda
+Create a virtual env, so that your existing project should not be impacted
+
+type mini and open Anaconda prompt(miniconda3) & type command:
+conda create --name bigdata python python=3.10
+then press shift-enter and ask for a prompt then press y to install package
+
+pip3 install --upgrade pip
+
+pip install jupyterlab
+It will open a jupyter notebook in browser with ip like http://localhost:8888/lab or sometimes http://localhost:8889/lab
+
+pip install findspark
+
+pip install pyspark
+
+-- first hello world notebook

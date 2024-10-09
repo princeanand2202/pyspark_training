@@ -1,0 +1,12 @@
+To run spark application, always use below commands
+	start button, type mini/anaconda command prompt	
+		(base) c:/Users/prianand> conda activate bigdata
+
+--start jupyter notebook
+pip install jupyterlab
+
+It will open a jupyter notebook in browser with ip like http://localhost:8888/lab or sometimes http://localhost:8889/lab
+
+ctrl - c to start
+
+pip install findspark -- only for local development purpose, it will fins the spark where it is installed and initialized
